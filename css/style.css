@@ -1,0 +1,95 @@
+body{
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+.filter{
+    cursor:pointer;
+}
+.filter:focus{
+    cursor:pointer;
+}
+.filter:hover{
+    cursor:pointer;
+}
+.logo{
+    font-size:26px;
+    color:#000000;
+    font-weight:700;
+}
+a{
+    color: #212121;
+}
+header > div > a:focus{
+    color: green;
+}
+header > div > a:hover{
+    color: green;
+}
+header > div > a{
+    color: #757575;
+}
+header{
+    font-size: 14px;
+}
+header > nav > ul > li > span{
+    color: #2196F3;
+}
+footer > ul > a:focus{
+
+    color: green;
+}
+footer > ul > a:hover{
+
+    color: green;
+}
+.categoriesContainer{
+   font-size:16px;
+}
+.productsContainer ul > li > figure > figcaption > span{
+    font-size: 18px;
+    color:#212121;
+    font-weight:700;
+}
+.productsContainer > ul > li > figure > figcaption{
+    font-size: 16px;
+    color:#757575;
+}
+footer > a{
+    font-size:26px;
+    color:#FFFFFF;
+    font-weight:700;
+}
+footer > a > span{
+    color: #2196F3;
+}
+footer{
+    font-size:14px;
+    font-weight:400;
+}
+footer > ul > li > address{
+    color:#FFFFFF;
+}
+footer > ul > li{
+    color: rgba(255, 255, 255, 0.6);
+}
+.marked{
+    color:#2196F3;
+}
+/* 
+S
+
+
+ELEMENT HTML/CLASS/ID:focus{
+    color:blue;
+    ...
+}
+
+
+
+
+
+Będziemy stylizować tag a, który jest bezpośrednim dzieckiem div, który z kolei jest bezpośrednim dzieckiem headera
+
+Jeśli nie ma > to poprostu wybieramy wszystkie elementy, które znajdują się w danym tagu,klasie, ID
+*/
+
