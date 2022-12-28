@@ -1,9 +1,17 @@
+:root{
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --marked-color: #2196F3;
+    --event-color: green;
+}
 body{
     font-family: Roboto, sans-serif;
-    color: #212121;
+    color: var(--primary-color);
 }
 .filter{
     cursor:pointer;
+    font-size: 16px;
+    line-height: 1.63;
 }
 .filter:focus{
     cursor:pointer;
@@ -15,44 +23,49 @@ body{
     font-size:26px;
     color:#000000;
     font-weight:700;
+    line-height: 1.19;
 }
 a{
-    color: #212121;
+    color: var(--primary-color);
 }
 header > div > a:focus{
-    color: green;
+    color: var(--event-color);
 }
 header > div > a:hover{
-    color: green;
+    color: var(--event-color);
 }
 header > div > a{
-    color: #757575;
+    color: var(--secondary-color);
 }
 header{
     font-size: 14px;
+    line-height: 1.14;
 }
 header > nav > ul > li > span{
-    color: #2196F3;
+    color: var(--marked-color);
 }
 footer > ul > a:focus{
 
-    color: green;
+    color: var(--event-color);
 }
 footer > ul > a:hover{
 
-    color: green;
+    color: var(--event-color);
 }
 .categoriesContainer{
    font-size:16px;
+   line-height: 1.63;
 }
 .productsContainer ul > li > figure > figcaption > span{
     font-size: 18px;
-    color:#212121;
+    color:var(--primary-color);
     font-weight:700;
+    line-height:2;
 }
 .productsContainer > ul > li > figure > figcaption{
     font-size: 16px;
-    color:#757575;
+    line-height:1.88;
+    color:var(--secondary-color);
 }
 footer > a{
     font-size:26px;
@@ -71,12 +84,13 @@ footer > ul > li > address{
 }
 footer > ul > li{
     color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height:1.72;
 }
 .marked{
-    color:#2196F3;
+    color:var(--marked-color);
 }
 /* 
-S
 
 
 ELEMENT HTML/CLASS/ID:focus{
